@@ -1,0 +1,134 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Kaisei+Decol&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+main{
+    
+    display: flex;
+    justify-content: center;
+}
+.box1{
+    color: #ffff;
+    width: 50vw;
+    height: 815px;
+    font-family: 'Kaisei Decol',serif;
+    font-style: normal;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 1);
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(./IMG/sus.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.box2{
+    background-color: #fff;
+    width: 50vw;
+    height: 815px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    padding-top: 15px;
+}
+.p1{
+    color: #005DAA;
+    font-family: 'Kaisei Decol';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+}
+.img1{
+    border-radius: 10px;
+    height: 70px;
+    
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    gap: 14px;
+
+}
+label{
+    font-family: 'Inder',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+input{
+    background-color: #E8E8E8;
+    border-radius: 40px;
+    border: none;
+    width: 539px;
+    height: 44px;
+    padding-left: 25px;
+}
+#btn{
+    background-color: #005DAA;
+    color: #ffff;
+    font-size: 20px;
+    border-radius: 40px;
+    height: 59px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+.vetor1{
+    display: flex;
+    align-items: center;
+  
+}
+.vetor2{
+   display: flex;
+   gap: 20px;
+   align-items: center;
+   margin-right: 20px;
+   color: #005DAA;
+   
+}
+a:hover{
+   border-radius: 4px;
+   height: 38px;
+    background-color: #005DAA;
+}
+
+header{
+    background-color: #5698CF;
+    width: 100vw;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+footer{
+    background-color: #5698CF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 66px;
+    gap: 5px;
+}

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inder&family=Merriweather&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hind&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/bancodeInformações.css">
+    <title>informação</title>
+</head>
+
+<body>
+    <header>
+        <section class="vetor1">
+            <img src="../IMG/logo.png" alt="" width="164px"
+            height="164px">
+            <img src="../IMG/image 1.png" alt="" width="189px" height="71px">
+        </section>
+
+
+        <section class="vetor2">
+            <a href="">
+            <img src="../IMG/Vector.png" alt="" width="30px" height="30px">
+             </a>
+             <a href="../index.html">
+            <img src="../IMG/Vector (1).png" alt="" width="30px" height="30px">
+            </a>
+            
+        </section>
+    </header>
+
+    <main>
+
+        <article class="titulo" >
+           
+            <img class="user" src="../IMG/🦆 icon _profile circle_.png" alt="">
+        
+            <article class="sintoma">
+                <p>Nós descreva seus sintomas</p>
+                <input type="text" id="sintomas" >
+              </article>
+
+            <h1>Bem-vindo</h1>
+            <p>Aqui você é atendido com classificação de Risco.</p>
+        </article>
+
+     
+        <section class="box1">
+            <p  class="select">Selecione o nível de gravidade:</p>
+            <form class="d-flex gap-2">
+               
+                <select id="urgencias">
+                    <option></option>
+                    <option>Emergência</option>
+                    <option>Muito Urgente</option>
+                    <option>Urgente</option>
+                    <option>Pouco Urgente</option>
+                    <option>Não Urgente</option>
+                </select>
+            </form>
+
+            <article class="grau">
+                <p>Qual a sua escala de dor de 0 a 10?</p>
+                <input id="grau" type="number">
+            </article>
+
+            <article class="ambulancia">
+                <p> Precisa de uma ambulância? </p>
+                <input  type="radio" name="opcao" id="sim">Sim
+                <input  type="radio" name="opcao" id="nao">Não
+
+            </article>
+
+            <article class="alergia">
+                <p>Tem Alergias?</p>
+                <input type="radio" name="selecao" id="tem">Sim
+
+                <input type="radio" name="selecao" id="nTem">Não
+            </article>
+            <article class="especifico">
+                <p>Quais?</p>
+                <input type="text" id="alergias">
+            </article>
+        </section>
+
+        <section class="box2">
+            <h1 class="niveis">Níveis de gravidade:</h1>
+
+            <article class="lista">
+        
+                <ol class="classificacao">
+    
+                    <il class="emergencia">
+                      
+                         <h1></h1> <h2>Emergência</h2>
+                        <p>Caso gravíssimo, com necessidade de atendimento imediato.</p>
+                    </il>
+                    <il class="muitoU">
+                        <h1></h1>
+                        <h2>Muito urgente</h2>
+                        <p>Caso grave, com necessidade de atendimento urgente.</p>
+                    </il>
+                    <il class="urgente">
+                        <h1></h1>
+                        <h2>Urgente</h2>
+                        <p>Caso de gravidade moderada. Necessita de atendimento rápido, mas pode aguardar.</p>
+                    </il>
+                    <il class="poucoU">
+                        <h1></h1>
+                        <h2>Pouco Urgente</h2>
+                        <p>Baixo risco de agravamento da saúde. Pode aguardar atendimento.</p>
+                    </il>
+                    <il class="naoU">
+                        <h1></h1>
+                        <h2>Não Urgente</h2>
+                        <p>Sem risco de agravamento da saúde. Pode aguardar atendimento ou ser encaminhado para à Unidade Básica de Saúde.</p>
+                    </il>
+                  </ol>
+            
+                
+                   
+        </section>
+        <button class="continuar" id="button">
+            Continuar
+        </button>
+    </main>
+    <script src="../js/script.js"></script>
+</body>
+
+</html>
